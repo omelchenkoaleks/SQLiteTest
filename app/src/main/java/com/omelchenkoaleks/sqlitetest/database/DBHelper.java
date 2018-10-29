@@ -22,9 +22,7 @@ public class DBHelper extends SQLiteOpenHelper {
     private static final String COL_EMAIL = "email";
     private static final String COL_PHONE = "phone";
 
-    public DBHelper(@Nullable Context context,
-                    @Nullable String name,
-                    @Nullable SQLiteDatabase.CursorFactory factory, int version) {
+    public DBHelper(@Nullable Context context) {
 
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }

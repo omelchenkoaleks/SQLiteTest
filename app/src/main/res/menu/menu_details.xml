@@ -4,16 +4,16 @@
 
     <item
         android:id="@+id/menu_edit"
-        android:title="@string/menu_edit"
         android:icon="@drawable/baseline_edit_24"
         android:orderInCategory="10"
-        app:showAsAction="ifRoom"/>
+        android:title="@string/menu_edit"
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/menu_delete"
-        android:title="@string/menu_delete"
         android:icon="@drawable/baseline_delete_24"
         android:orderInCategory="20"
-        app:showAsAction="ifRoom"/>
+        android:title="@string/menu_delete"
+        app:showAsAction="ifRoom" />
 
 </menu>

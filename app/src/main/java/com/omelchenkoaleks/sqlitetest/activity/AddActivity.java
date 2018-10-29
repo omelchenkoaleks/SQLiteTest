@@ -27,7 +27,7 @@ public class AddActivity extends AppCompatActivity {
         etPhone = findViewById(R.id.et_phone);
         btnSave = findViewById(R.id.bt_save);
 
-        btnSave.setOnClickListener((view) -> {saveContact();});
+        btnSave.setOnClickListener((view) -> { saveContact(); });
     }
 
     private void saveContact() {

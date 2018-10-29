@@ -25,7 +25,7 @@ public class ContactDetailsActivity extends AppCompatActivity {
 
         etName = findViewById(R.id.et_name);
         etEmail = findViewById(R.id.et_email);
-        etPhone = findViewById(R.id.et_phoner);
+        etPhone = findViewById(R.id.et_phone);
 
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
