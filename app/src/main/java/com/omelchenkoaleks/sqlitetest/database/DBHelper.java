@@ -10,7 +10,6 @@ import android.util.Log;
 
 import com.omelchenkoaleks.sqlitetest.model.Contact;
 
-import java.security.cert.Extension;
 import java.util.ArrayList;
 
 public class DBHelper extends SQLiteOpenHelper {
